@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+body a {
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: #E0FFFF;
+}
+.personal {
+	width: 100%;
+	position: relative;
+}
+.personal>span.p_name {
+	font-size: 2.5rem;
+	color: #E0FFFF;
+	position: absolute;
+	right: 2rem;
+	top: 2.5rem;
+}
+.personal>span.list {
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+}
+.personal>div#p_title {
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 3rem;
+	color: #E0FFFF;
+	text-align: center;
+	background-color: #008080;
+}
+.personal select {
+	width: 60%;
+	height: 4rem;
+	border-radius: 1rem;
+	border-color: #008080;
+	text-indent: 2rem;
+	font-size: 2.5rem;
+	outline: none;
+	margin: 2rem auto;
+	display: block;
+}
+option{
+	width: 100%;
+	font-size: 1rem;
+}
+.personal div#p_score_display {
+	width: 85%;
+	border: .3rem solid #20B2AA;
+	border-radius: 1rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.personal div#p_score_display .p_project {
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	color: #000000;
+	background-color: #20B2AA;
+}
+.personal div#p_score_display .p_project_score {
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	color: #000000;
+}
+#dispOnePro {
+	width: 85%;
+	height: 40rem;
+	background-color: #B0E0E6;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -42.5%;
+	margin-top: -20rem;
+	display: none;
+}
+.dop_title,.dpi_title {
+	width: 100%;
+	height: 6rem;
+	line-height: 6rem;
+	font-size: 2.5rem;
+	color: #E0FFFF;
+	text-align: center;
+	background-color: #008080;
+
+}
+.dop_spe,.dpi_spe {
+	width: 80%;
+	height: 25rem;
+	margin-left: 10%;
+	margin-top: 5rem;
+	/*background-color: #ffffff;*/
+}
+.dop_spe span {
+	width: 100%;
+	height: 4rem;
+	line-height: 4rem;
+	display: block;
+	font-size: 2.5rem;
+}
+.specific {
+	width: 40%;
+	height: 100%;
+	background-color: #B0E0E6;
+	position: absolute;
+	top: 8rem;
+	left: -40%;
+}
+.specific ul {
+	list-style-type: none;
+	display: block;
+}
+.specific ul li {
+	padding: 2rem 0 1rem 3rem;
+	border-bottom: .3rem solid #008080;
+	display: block;
+	overflow: hidden;
+}
+.specific ul li b {
+	vertical-align: top;
+	color: #000000;
+	display: inline-block;
+	padding: 1rem 0 0 2rem;
+	font-size: 2.8rem;
+	font-weight: normal;
+}
+#dispPInfo {
+	width: 85%;
+	height: 60rem;
+	background-color: #B0E0E6;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -42.5%;
+	margin-top: -30rem;
+	display: none;
+}
+.dpi_spe span {
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	display: block;
+	font-size: 3rem;
+}

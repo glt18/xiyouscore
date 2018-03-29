@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>西邮成绩</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/xiyouScore.css">
+</head>
+<body>
+	<div class="box">
+		<div class="personal">
+			<span class="p_name">
+				<a href="#" id="userName"></a>
+				<a href="index.html">退出</a>
+			</span>
+			<span class="list" id="list" onclick="showList()"><img src="images/list.png"></span>
+			<div id="p_title">西邮成绩</div>
+			<div class="p_con">
+				<select class="selector"></select>
+				<div id="p_score_display">
+				</div>
+				<div id="dispOnePro">
+					<div class="dop_title">
+					</div>
+					<div class="dop_spe">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div id="dispPInfo">
+				<div class="dpi_title">
+					个人信息
+				</div>
+				<div class="dpi_spe">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="specific" id="showlist">
+			<ul>
+				<li id="personInfo"><img src="images/pinfo.png"><b>个人信息</b></li>
+				<li id="findScore"><img src="images/sscore.png"><b>成绩查询</b></li>
+				<li><img src="images/pinfo.png"><b>补考查询</b></li>
+				<li><img src="images/pinfo.png"><b>退出</b></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/xiyouScore.js"></script>
+</body>
+</html>

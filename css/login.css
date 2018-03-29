@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #B0E0E6;
+}
+.login {
+	width: 100%;
+	position: relative;
+}
+.login>div#title {
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 3rem;
+	color: #E0FFFF;
+	text-align: center;
+	background-color: #008080;
+}
+.login>div#picSelf {
+	width: 33%;
+	height: 20rem;
+	margin: 2rem auto 3rem;
+	overflow: hidden;
+}
+.login>div#picSelf img {
+	border-radius: 50%;
+	width: 100%;
+}
+.login>div.formCon {
+	position: relative;
+}
+.login input#userId,.login input#userPW,.login input#identifyCode{
+	width: 80%;
+	height: 6rem;
+	font-size: 2rem;
+	text-indent: 2rem;
+	outline: none;
+	border:hidden;
+	margin: 0 auto;
+	display: block;
+}
+.login img#uidImg {
+	position: absolute;
+	right: 8rem;
+	top: 2rem;
+}
+.login img#upwImg {
+	position: absolute;
+	right: 8rem;
+	top: 8rem;
+}
+.login img#idcodeImg {
+	position: absolute;
+	right: 6rem;
+	top: 12rem;
+	width: 30%;
+	height: 6rem;
+}
+.login button#loginBtn {
+	width: 80%;
+	height: 6rem;
+	font-size: 3rem;
+	text-align: center;
+	color: #FFF0F5;
+	outline: none;
+	margin: 5rem auto;
+	display: block;
+	background-color: #008080;
+}
